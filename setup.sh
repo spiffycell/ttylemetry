@@ -7,6 +7,6 @@ set -o pipefail
 sudo cp ttyl _ttylemetry ttylemetry /usr/local/bin/
 
 # add .ttyl dir for custom configs
-mkdir ${HOME}/.ttyl/
+mkdir -p ${HOME}/.ttyl/
 cp configs/default ${HOME}/.ttyl/
 
