@@ -1,4 +1,8 @@
 # TTYlemetry
+[![Author](https://img.shields.io/badge/author-spiffycell-red?style=flat-square)](https://github.com/spiffycell)
+[![Stargazers](https://img.shields.io/github/stars/spiffycell/ttylemetry.svg?style=flat-square)](https://github.com/spiffycell/ttylemetry/stargazers)
+[![Fork](https://img.shields.io/github/forks/spiffycell/ttylemetry.svg?style=flat-square)](https://github.com/spiffycell/ttylemetry/ork)
+[![License](https://img.shields.io/github/license/spiffycell/ttylemetry.svg?style=flat-square)](https://github.com/spiffycell/ttylemetry/blob/main/LICENSE)
 
 TTYlemetry allows the user to prop up and restore custom tmux configs on the go
 <br><br>
