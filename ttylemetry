@@ -54,7 +54,7 @@ createNewSession() {
 	fi
 
 	echo "[+] Initializing _ttylemetry..."
-	_ttylemetry $sessionName ${procs[0]} ${procs[1]} ${procs[2]} ${procs[3]}
+	./_ttylemetry $sessionName ${procs[0]} ${procs[1]} ${procs[2]} ${procs[3]}
 	exit 0
 }
 
