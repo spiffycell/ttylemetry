@@ -1,3 +1,4 @@
+[](./assets/ttyl.png)
 # TTYlemetry
 [![Author](https://img.shields.io/badge/author-spiffycell-red?style=flat-square)](https://github.com/spiffycell)
 [![Stargazers](https://img.shields.io/github/stars/spiffycell/ttylemetry.svg?style=flat-square)](https://github.com/spiffycell/ttylemetry/stargazers)
