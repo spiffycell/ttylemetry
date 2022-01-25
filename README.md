@@ -23,3 +23,4 @@ zsh
 htop
 ```
 
+!! NOTICE: This program requires tmux to be installed, and any programs that you configure to run must also be installed prior to running ttyl
