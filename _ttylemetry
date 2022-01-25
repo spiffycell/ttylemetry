@@ -1,0 +1,27 @@
+#!/bin/bash
+
+if ! tmux attach-session
+then
+	tmux new-session -d -s $1 'bash'
+	
+	if [ ! -z $2 ]; then
+		tmux send-keys "$2" 'C-m'
+		tmux select-window -t $1:0
+		
+		if [ ! -z $3 ]; then
+			tmux split-window -v 'bash'
+			tmux send-keys "$3" 'C-m'
+			
+			if [ ! -z $4 ]; then
+				tmux split-window -h 'bash'
+				tmux send-keys "$4" 'C-m'
+				
+				if [ ! -z $5 ]; then
+					tmux split-window -h -t 1 'bash'
+					tmux send-keys "$5" 'C-m'
+				fi
+			fi
+		fi
+	fi
+fi
+tmux -2 attach-session -t $1
